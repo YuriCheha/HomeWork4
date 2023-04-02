@@ -79,4 +79,13 @@
 # except ZeroDivisionError:
 #     raise ValueError("Коэффициент a не должен быть равен нулю")
 
+# import math
+#
+# A = float(input("Введите значение A: "))
+# if A == 0:
+#     print('x = -1')
+# else:
+#     x = math.sin(A) / (A * (A - 1))
+#     print(f"x = {x}")
+
 
