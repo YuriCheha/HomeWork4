@@ -62,5 +62,21 @@
 # except ValueError:
 #     print("Ошибка: введены некорректные значения параметров A и/или B")
 
+# a = float(input("Введите значение a: "))
+# b = float(input("Введите значение b: "))
+# c = float(input("Введите значение c: "))
+# try:
+#     d = b ** 2 - 4 * a * c
+#     if d < 0:
+#         raise ValueError("Уравнение не имеет решений")
+#     elif d == 0:
+#         print(-b / (2 * a))
+#
+#     else:
+#         x1 = (-b + (d**0.5)) / (2 * a)
+#         x2 = (-b - (d**0.5)) / (2 * a)
+#         print(x1, x2)
+# except ZeroDivisionError:
+#     raise ValueError("Коэффициент a не должен быть равен нулю")
 
 
