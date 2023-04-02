@@ -89,3 +89,17 @@
 #     print(f"x = {x}")
 
 
+# import random
+#
+# rows = 3
+# columns = 3
+# matrix = [[random.randint(0,50) for j in range(columns)] for i in range(rows)]
+# for row in matrix:
+#     print(row)
+# max_z = 0
+# for row in matrix:
+#     for num in row:
+#         if num > max_z:
+#             max_z = num
+# print("Максимальное значение:", max_z)
+
